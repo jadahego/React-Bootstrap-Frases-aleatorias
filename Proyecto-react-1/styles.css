@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 300% 100%; 
+    animation: rainbow 5s linear infinite;
+    transition: background-color 1s ease;
+  }
+  
+  #quote-box {
+    background: black;
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #text {
+    font-size: 1.5rem;
+    color: #343a40;
+    transition: color 1s ease;
+  }
+  
+  #author {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #6c757d;
+    transition: color 1s ease;
+  }
+  
+  #new-quote {
+    background-color: #007bff;
+    border: none;
+    margin: 1rem 0;
+  }
+  
+  #new-quote:hover {
+    background-color: #0056b3;
+  }
+  
+  #tweet-quote {
+    margin-top: 1rem;
+  }
+  
